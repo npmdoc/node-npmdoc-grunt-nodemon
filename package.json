@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-nodemon",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-nodemon",
+    "description": "api documentation for [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon)",
     "devDependencies": {
-        "grunt-nodemon": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-nodemon": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-nodemon",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-nodemon",
+    "keywords": [
+        "documentation",
+        "grunt-nodemon"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_nodemon.js",
+    "name": "npmdoc-grunt-nodemon",
+    "nameAlias": "npmdoc_grunt_nodemon",
+    "nameOriginal": "npmdoc-grunt-nodemon",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-nodemon.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
