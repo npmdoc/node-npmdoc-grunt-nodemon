@@ -1,9 +1,11 @@
 # api documentation for  [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon)
 #### Grunt task to run a nodemon monitor of your node.js server
 
-[![NPM](https://nodei.co/npm/grunt-nodemon.png?downloads=true)](https://www.npmjs.com/package/grunt-nodemon)
+[![NPM](https://nodei.co/npm/grunt-nodemon.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-nodemon)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-nodemon_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-nodemon/build/screenCapture.npmPackageListing.svg)
 
@@ -51,8 +53,7 @@
     "main": "test/fixtures/server.js",
     "maintainers": [
         {
-            "name": "chriswren",
-            "email": "chris@chrisawren.com"
+            "name": "chriswren"
         }
     ],
     "name": "grunt-nodemon",
@@ -60,7 +61,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ChrisWren/grunt-nodemon.git"
@@ -71,16 +71,6 @@
     "version": "0.4.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-nodemon](#apidoc.module.grunt-nodemon)
-
-
-
-# <a name="apidoc.module.grunt-nodemon"></a>[module grunt-nodemon](#apidoc.module.grunt-nodemon)
 
 
 
