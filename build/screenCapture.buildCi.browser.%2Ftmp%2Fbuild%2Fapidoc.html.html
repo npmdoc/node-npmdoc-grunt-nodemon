@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/ChrisWren/grunt-nodemon#readme"
-
-    >grunt-nodemon (v0.4.2)</a>
+    <a href="https://github.com/ChrisWren/grunt-nodemon#readme">grunt-nodemon (v0.4.2)</a>
 </h1>
 <h4>Grunt task to run a nodemon monitor of your node.js server</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-nodemon">module grunt-nodemon</a><ol>
 
@@ -99,9 +92,9 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">nodemon = function (grunt) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
-  grunt.registerMultiTask(&#x27;nodemon&#x27;, &#x27;Runs a nodemon monitor of your node.js server.&#x27;, function () {
+  grunt.registerMultiTask('nodemon', 'Runs a nodemon monitor of your node.js server.', function () {
 
     this.async();
     var options = this.options();
@@ -115,7 +108,7 @@
       delete options.callback;
     } else {
       callback = function(nodemonApp) {
-        nodemonApp.on(&#x27;log&#x27;, function (event) {
+        nodemonApp.on('log', function (event) {
           console.log(event.colour);
         });
       };
@@ -142,9 +135,9 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">nodemon = function (grunt) {
-  &#x27;use strict&#x27;;
+  'use strict';
 
-  grunt.registerMultiTask(&#x27;nodemon&#x27;, &#x27;Runs a nodemon monitor of your node.js server.&#x27;, function () {
+  grunt.registerMultiTask('nodemon', 'Runs a nodemon monitor of your node.js server.', function () {
 
     this.async();
     var options = this.options();
@@ -158,7 +151,7 @@
       delete options.callback;
     } else {
       callback = function(nodemonApp) {
-        nodemonApp.on(&#x27;log&#x27;, function (event) {
+        nodemonApp.on('log', function (event) {
           console.log(event.colour);
         });
       };
@@ -179,3 +172,4 @@
     ]
 </div>
 </div>
+</body></html>
