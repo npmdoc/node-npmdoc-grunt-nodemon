@@ -61,115 +61,12 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-nodemon">module grunt-nodemon</a><ol>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.grunt-nodemon.nodemon">
-            function <span class="apidocSignatureSpan">grunt-nodemon.</span>nodemon
-            <span class="apidocSignatureSpan">(grunt)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-nodemon.nodemon">module grunt-nodemon.nodemon</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.grunt-nodemon.nodemon.nodemon">
-            function <span class="apidocSignatureSpan">grunt-nodemon.</span>nodemon
-            <span class="apidocSignatureSpan">(grunt)</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.grunt-nodemon" id="apidoc.module.grunt-nodemon">module grunt-nodemon</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.grunt-nodemon.nodemon" id="apidoc.element.grunt-nodemon.nodemon">
-        function <span class="apidocSignatureSpan">grunt-nodemon.</span>nodemon
-        <span class="apidocSignatureSpan">(grunt)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">nodemon = function (grunt) {
-  &#x27;use strict&#x27;;
-
-  grunt.registerMultiTask(&#x27;nodemon&#x27;, &#x27;Runs a nodemon monitor of your node.js server.&#x27;, function () {
-
-    this.async();
-    var options = this.options();
-
-    options.script = this.data.script;
-
-    var callback;
-
-    if (options.callback) {
-      callback = options.callback;
-      delete options.callback;
-    } else {
-      callback = function(nodemonApp) {
-        nodemonApp.on(&#x27;log&#x27;, function (event) {
-          console.log(event.colour);
-        });
-      };
-    }
-
-    callback(nodemon(options));
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.grunt-nodemon.nodemon" id="apidoc.module.grunt-nodemon.nodemon">module grunt-nodemon.nodemon</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.grunt-nodemon.nodemon.nodemon" id="apidoc.element.grunt-nodemon.nodemon.nodemon">
-        function <span class="apidocSignatureSpan">grunt-nodemon.</span>nodemon
-        <span class="apidocSignatureSpan">(grunt)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">nodemon = function (grunt) {
-  &#x27;use strict&#x27;;
-
-  grunt.registerMultiTask(&#x27;nodemon&#x27;, &#x27;Runs a nodemon monitor of your node.js server.&#x27;, function () {
-
-    this.async();
-    var options = this.options();
-
-    options.script = this.data.script;
-
-    var callback;
-
-    if (options.callback) {
-      callback = options.callback;
-      delete options.callback;
-    } else {
-      callback = function(nodemonApp) {
-        nodemonApp.on(&#x27;log&#x27;, function (event) {
-          console.log(event.colour);
-        });
-      };
-    }
-
-    callback(nodemon(options));
-  });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
 
 </div>
 
