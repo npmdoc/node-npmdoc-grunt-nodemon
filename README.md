@@ -1,4 +1,7 @@
-# api documentation for  [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon)
+# npmdoc-grunt-nodemon
+
+#### basic api documentation for  [grunt-nodemon (v0.4.2)](https://github.com/ChrisWren/grunt-nodemon#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-nodemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-nodemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-nodemon)
+
 #### Grunt task to run a nodemon monitor of your node.js server
 
 [![NPM](https://nodei.co/npm/grunt-nodemon.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-nodemon)
@@ -68,7 +71,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.4.2"
+    "version": "0.4.2",
+    "bin": {}
 }
 ```
 
